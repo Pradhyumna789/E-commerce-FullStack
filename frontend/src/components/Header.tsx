@@ -4,8 +4,8 @@ import { FaSearch,FaShoppingBag, FaSignInAlt, FaSignOutAlt, FaUser } from "react
 import { useState } from "react";
 
 const user = { 
-    _id: "das",
-    role:"admin",
+    _id: "dad",
+    role: "admin",
 };
 
 const Header = () => {
@@ -42,7 +42,6 @@ const Header = () => {
                 <button onClick={logOutHandler}>
                   <FaSignOutAlt/>
                 </button>
-
 
               </div>
             </dialog>

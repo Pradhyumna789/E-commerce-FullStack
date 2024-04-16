@@ -2,14 +2,15 @@
     padding: 2rem 5%;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 4rem);
+    // height: calc(100vh - 4rem);
+    height: 100vh;
     width: 100%;
 
     >section{  // can remove this
         width: 100%;
         height: 18.5rem;
         margin: auto;
-        background: url("../assets/controller.jpg") no-repeat center / cover;
+        background: url("https://t3.ftcdn.net/jpg/06/16/32/56/360_F_616325659_BOYDbtlbIaa7g2s81HfulxujPcPLZHbj.jpg") no-repeat center / cover;
     }
 
     >h1{
@@ -20,6 +21,7 @@
 
     .findmore{
         font-size: 1rem;
+        font-weight: 400;
     }
 
     > main {
@@ -38,7 +40,7 @@
 .productCard{
     width: 18.5rem;
     height: 25rem;
-    padding: 1rem;
+    padding: 0.5rem;
     flex: none;
     @include flex(column,flex-start,center,4px);
     position: relative;
@@ -49,6 +51,7 @@
     }
 
     img{
+        // @include square(calc(18.75rem - 3rem));
         @include square(calc(18.75rem - 3rem));
         object-fit: cover;
         margin: 1rem;
