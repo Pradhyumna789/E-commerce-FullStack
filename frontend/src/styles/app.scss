@@ -94,7 +94,7 @@ $color3: rgb(0, 104, 136);
     position: absolute;
     left: calc(100% - 100px);
     top: 8%;
-    
+    z-index: 3;
     >div{
       @include flex(column,flex-start,center,0.25rem)
     }

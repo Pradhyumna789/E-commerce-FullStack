@@ -21,55 +21,17 @@ const Home = () => {
       </h1>
       
       <main>
+        
         <ProductCard
           productId="daasdasdasd"
-          name="MacBook"
+          name="Suit"
           price={4545}
           stock={435}
-          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
+          photo="https://m.media-amazon.com/images/I/61UC7Vh6UTL._AC_UL480_FMwebp_QL65_.jpg"
           handler={addToCartHandler}
         />
+
         <ProductCard
-          productId="daasdasdasd"
-          name="MacBook"
-          price={4545}
-          stock={435}
-          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
-          handler={addToCartHandler}
-        />
-                <ProductCard
-          productId="daasdasdasd"
-          name="MacBook"
-          price={4545}
-          stock={435}
-          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
-          handler={addToCartHandler}
-        />
-                <ProductCard
-          productId="daasdasdasd"
-          name="MacBook"
-          price={4545}
-          stock={435}
-          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
-          handler={addToCartHandler}
-        />
-                <ProductCard
-          productId="daasdasdasd"
-          name="MacBook"
-          price={4545}
-          stock={435}
-          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
-          handler={addToCartHandler}
-        />
-                <ProductCard
-          productId="daasdasdasd"
-          name="MacBook"
-          price={4545}
-          stock={435}
-          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
-          handler={addToCartHandler}
-        />
-                <ProductCard
           productId="daasdasdasd"
           name="MacBook"
           price={4545}
