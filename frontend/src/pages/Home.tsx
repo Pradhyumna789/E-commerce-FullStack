@@ -39,34 +39,6 @@ const Home = () => {
           photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
           handler={addToCartHandler}
         />
-
-        <ProductCard
-          productId="daasdasdasd"
-          name="book"
-          price={300}
-          stock={20}
-          photo="https://m.media-amazon.com/images/I/81zWLzJMyXL._AC_UY327_FMwebp_QL65_.jpg"
-          handler={addToCartHandler}
-        />
-
-        <ProductCard
-          productId="daasdasdasd"
-          name="book"
-          price={250}
-          stock={20}
-          photo="https://m.media-amazon.com/images/I/716vqHaa8mL._AC_UY327_FMwebp_QL65_.jpg"
-          handler={addToCartHandler}
-        />
-
-        <ProductCard
-          productId="daasdasdasd"
-          name="book"
-          price={30000}
-          stock={20}
-          photo="https://m.media-amazon.com/images/I/61V2IPfjMEL._AC_UL480_FMwebp_QL65_.jpg"
-          handler={addToCartHandler}
-        />
-
       </main>
     </div>
 
