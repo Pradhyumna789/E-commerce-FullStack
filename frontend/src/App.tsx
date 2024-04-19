@@ -4,7 +4,6 @@ import Loader from "./components/Loader"
 import "./styles/app.scss"
 import Header from "./components/Header"
 
-
 const Home = lazy(()=> import("./pages/Home"))
 const Cart = lazy(()=> import("./pages/Cart"))
 const Search = lazy(()=> import("./pages/Search"))
