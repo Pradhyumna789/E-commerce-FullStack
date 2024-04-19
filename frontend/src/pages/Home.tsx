@@ -37,6 +37,46 @@ const Home = () => {
           photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
           handler={addToCartHandler}
         />
+                <ProductCard
+          productId="daasdasdasd"
+          name="MacBook"
+          price={4545}
+          stock={435}
+          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
+          handler={addToCartHandler}
+        />
+                <ProductCard
+          productId="daasdasdasd"
+          name="MacBook"
+          price={4545}
+          stock={435}
+          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
+          handler={addToCartHandler}
+        />
+                <ProductCard
+          productId="daasdasdasd"
+          name="MacBook"
+          price={4545}
+          stock={435}
+          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
+          handler={addToCartHandler}
+        />
+                <ProductCard
+          productId="daasdasdasd"
+          name="MacBook"
+          price={4545}
+          stock={435}
+          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
+          handler={addToCartHandler}
+        />
+                <ProductCard
+          productId="daasdasdasd"
+          name="MacBook"
+          price={4545}
+          stock={435}
+          photo="https://m.media-amazon.com/images/I/31+G-o8iK-L._SX342_SY445_.jpg"
+          handler={addToCartHandler}
+        />
       </main>
     </div>
 
